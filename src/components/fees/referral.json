@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_fees_referrals",
+  "info": {
+    "displayName": "referral",
+    "icon": "manyToMany",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "line_one_member": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "line_one_percent": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "line_two_member": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "line_two_percent": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "line_three_member": {
+      "type": "integer",
+      "required": true,
+      "max": 100,
+      "default": 0,
+      "min": 0
+    },
+    "line_three_percent": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    }
+  }
+}

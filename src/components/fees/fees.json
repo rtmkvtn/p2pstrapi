@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_fees_fees",
+  "info": {
+    "displayName": "fees",
+    "icon": "priceTag"
+  },
+  "options": {},
+  "attributes": {
+    "deposit_fee": {
+      "type": "decimal",
+      "default": 0,
+      "max": 100,
+      "min": 0,
+      "required": true
+    },
+    "exchange_fee": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "withdrawal_fee_btc": {
+      "type": "decimal",
+      "required": true,
+      "default": 0,
+      "max": 100,
+      "min": 0
+    },
+    "withdrawal_fee_eth": {
+      "type": "decimal",
+      "required": true,
+      "default": 0,
+      "max": 100,
+      "min": 0
+    },
+    "withdrawal_fee_usdt": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "withdrawal_fee_ltc": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "withdrawal_fee_trx": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    }
+  }
+}

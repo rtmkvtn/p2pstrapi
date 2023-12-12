@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fees": {
+      "displayName": "fees",
+      "type": "component",
+      "repeatable": false,
+      "component": "fees.fees"
+    },
+    "referral_fees": {
+      "displayName": "referral",
+      "type": "component",
+      "repeatable": false,
+      "component": "fees.referral"
+    },
+    "maintenance": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "magazines_visible": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "local_crypto_visible": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "buttons_urls": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "url.button"
+    }
+  }
+}

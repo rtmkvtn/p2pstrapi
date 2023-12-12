@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_media_links",
+  "info": {
+    "singularName": "social-media-link",
+    "pluralName": "social-media-links",
+    "displayName": "social media link"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "instagram",
+        "telegram",
+        "twitter",
+        "youtube"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

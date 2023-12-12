@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_url_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "home_page": {
+      "type": "string"
+    },
+    "top_up_wallel": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "signup": {
+      "type": "string"
+    },
+    "start": {
+      "type": "string"
+    },
+    "subscribe": {
+      "type": "string"
+    }
+  }
+}

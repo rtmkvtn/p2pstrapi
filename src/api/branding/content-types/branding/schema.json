@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "brandings",
+  "info": {
+    "singularName": "branding",
+    "pluralName": "brandings",
+    "displayName": "branding"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "favicon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "product_name": {
+      "type": "string",
+      "required": true
+    },
+    "front_url": {
+      "type": "string"
+    },
+    "p2p_url": {
+      "type": "string"
+    },
+    "api_url": {
+      "type": "string"
+    }
+  }
+}
