@@ -860,6 +860,7 @@ export interface ApiFaqFaq extends Schema.CollectionType {
     singularName: 'faq';
     pluralName: 'faqs';
     displayName: 'Faq';
+    description: '';
   };
   options: {
     draftAndPublish: true;
