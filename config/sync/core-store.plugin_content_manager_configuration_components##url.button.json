@@ -1,0 +1,153 @@
+{
+  "key": "plugin_content_manager_configuration_components::url.button",
+  "value": {
+    "uid": "url.button",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "home_page",
+      "defaultSortBy": "home_page",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "home_page": {
+        "edit": {
+          "label": "home_page",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "home_page",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "top_up_wallel": {
+        "edit": {
+          "label": "top_up_wallel",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "top_up_wallel",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "login": {
+        "edit": {
+          "label": "login",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "login",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "signup": {
+        "edit": {
+          "label": "signup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "signup",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "start": {
+        "edit": {
+          "label": "start",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "start",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "subscribe": {
+        "edit": {
+          "label": "subscribe",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "subscribe",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "home_page",
+        "top_up_wallel",
+        "login"
+      ],
+      "edit": [
+        [
+          {
+            "name": "home_page",
+            "size": 6
+          },
+          {
+            "name": "top_up_wallel",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "login",
+            "size": 6
+          },
+          {
+            "name": "signup",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "start",
+            "size": 6
+          },
+          {
+            "name": "subscribe",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

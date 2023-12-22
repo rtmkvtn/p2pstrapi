@@ -57,7 +57,7 @@ module.exports = createCoreController("api::setting.setting", ({ strapi }) => ({
 
       const brandingForFront = {
         logo: branding.logo?.url,
-        favicon: branding.favicon?.url,
+        favIcon: branding.favicon?.url,
         companyName: branding.product_name,
       };
       return {

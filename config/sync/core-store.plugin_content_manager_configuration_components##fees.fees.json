@@ -1,0 +1,171 @@
+{
+  "key": "plugin_content_manager_configuration_components::fees.fees",
+  "value": {
+    "uid": "fees.fees",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "deposit_fee": {
+        "edit": {
+          "label": "deposit_fee",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "deposit_fee",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "exchange_fee": {
+        "edit": {
+          "label": "exchange_fee",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "exchange_fee",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "withdrawal_fee_btc": {
+        "edit": {
+          "label": "withdrawal_fee_btc",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "withdrawal_fee_btc",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "withdrawal_fee_eth": {
+        "edit": {
+          "label": "withdrawal_fee_eth",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "withdrawal_fee_eth",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "withdrawal_fee_usdt": {
+        "edit": {
+          "label": "withdrawal_fee_usdt",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "withdrawal_fee_usdt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "withdrawal_fee_ltc": {
+        "edit": {
+          "label": "withdrawal_fee_ltc",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "withdrawal_fee_ltc",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "withdrawal_fee_trx": {
+        "edit": {
+          "label": "withdrawal_fee_trx",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "withdrawal_fee_trx",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "deposit_fee",
+        "exchange_fee",
+        "withdrawal_fee_btc"
+      ],
+      "edit": [
+        [
+          {
+            "name": "deposit_fee",
+            "size": 4
+          },
+          {
+            "name": "exchange_fee",
+            "size": 4
+          },
+          {
+            "name": "withdrawal_fee_btc",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "withdrawal_fee_eth",
+            "size": 4
+          },
+          {
+            "name": "withdrawal_fee_usdt",
+            "size": 4
+          },
+          {
+            "name": "withdrawal_fee_ltc",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "withdrawal_fee_trx",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

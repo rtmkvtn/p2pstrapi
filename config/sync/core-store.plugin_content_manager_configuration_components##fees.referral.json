@@ -1,0 +1,151 @@
+{
+  "key": "plugin_content_manager_configuration_components::fees.referral",
+  "value": {
+    "uid": "fees.referral",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "line_one_member": {
+        "edit": {
+          "label": "line_one_member",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "line_one_member",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "line_one_percent": {
+        "edit": {
+          "label": "line_one_percent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "line_one_percent",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "line_two_member": {
+        "edit": {
+          "label": "line_two_member",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "line_two_member",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "line_two_percent": {
+        "edit": {
+          "label": "line_two_percent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "line_two_percent",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "line_three_member": {
+        "edit": {
+          "label": "line_three_member",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "line_three_member",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "line_three_percent": {
+        "edit": {
+          "label": "line_three_percent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "line_three_percent",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "line_one_member",
+        "line_one_percent",
+        "line_two_member"
+      ],
+      "edit": [
+        [
+          {
+            "name": "line_one_member",
+            "size": 4
+          },
+          {
+            "name": "line_one_percent",
+            "size": 4
+          },
+          {
+            "name": "line_two_member",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "line_two_percent",
+            "size": 4
+          },
+          {
+            "name": "line_three_member",
+            "size": 4
+          },
+          {
+            "name": "line_three_percent",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

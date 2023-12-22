@@ -1,0 +1,212 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::setting.setting",
+  "value": {
+    "uid": "api::setting.setting",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "fees": {
+        "edit": {
+          "label": "fees",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "fees",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "referral_fees": {
+        "edit": {
+          "label": "referral_fees",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "referral_fees",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "maintenance": {
+        "edit": {
+          "label": "maintenance",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "maintenance",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "magazines_visible": {
+        "edit": {
+          "label": "magazines_visible",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "magazines_visible",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "local_crypto_visible": {
+        "edit": {
+          "label": "local_crypto_visible",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "local_crypto_visible",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "buttons_urls": {
+        "edit": {
+          "label": "buttons_urls",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "buttons_urls",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "fees",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "fees",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "referral_fees",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "maintenance",
+            "size": 4
+          },
+          {
+            "name": "magazines_visible",
+            "size": 4
+          },
+          {
+            "name": "local_crypto_visible",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "buttons_urls",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

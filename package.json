@@ -23,7 +23,9 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-plugin-config-sync": "^1.0.0",
     "strapi-plugin-import-export-entries": "^1.22.2",
+    "strapi-plugin-migrate": "^3.6.3",
     "styled-components": "5.3.3"
   },
   "author": {
